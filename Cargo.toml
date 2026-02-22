@@ -1,0 +1,20 @@
+[package]
+name = "LockTUI"
+version = "0.1.0"
+edition = "2024"
+description = "A TUI lock manager"
+
+[[bin]]
+name = "tlock"
+path = "src/main.rs"
+
+[dependencies]
+chrono = { version = "0.4.43", features = ["clock"] }
+color-eyre = "0.6.5"
+crossterm = "0.29.0"
+pam = "0.8.0"
+ratatui = "0.30.0"
+whoami = "2.1.1"
+
+[build-dependencies]
+pkg-config = "0.3.31"
