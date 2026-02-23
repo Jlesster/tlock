@@ -14,7 +14,7 @@ color-eyre = "0.6.5"
 crossterm = "0.29.0"
 pam = "0.8.0"
 ratatui = "0.30.0"
-whoami = "2.1.1"
+whoami = "1.5.1"
 
 [build-dependencies]
 pkg-config = "0.3.31"
